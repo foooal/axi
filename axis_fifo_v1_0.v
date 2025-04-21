@@ -42,7 +42,6 @@ module axis_fifo_v1_0 #
     /*
      * AXI master interface (output of the FIFO)
      */
-    // �ظ�ͬ��������Ϊm00_axis��ʱ�Ӻ͸�λ�ź�
 
     input  wire                   m00_axis_aclk,
     
