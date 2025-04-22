@@ -113,7 +113,7 @@ reg write;
 reg read;
 reg store_output;
 
-assign s00_axis_tready = ~full & ~s00_rst_sync3_reg;
+assign s00_axis_tready = ~full & ~s00_rst_sync3_reg;    //只有当FIFO非满，且s和m的复位都释放
 
 assign m00_axis_tvalid = m00_axis_tvalid_reg;
 
